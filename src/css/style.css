@@ -1,0 +1,296 @@
+*
+{
+    font-family: 'Dhyana', sans-serif;
+}
+.background-gradient
+{
+    background: rgb(246,221,243);
+    background: linear-gradient(45deg, rgba(246,221,243,1) 0%, rgba(250,254,255,1) 50%, rgba(220,247,253,1) 100%); 
+    
+}
+.navbar-nav .nav-item .nav-link
+{
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+.navbar-nav .nav-item .nav-link button
+{
+    
+    background-color: #4528B6;
+    color: white;
+    border-radius: 53px;
+    padding: 10px 10px 10px 10px;
+}
+.container h1
+{
+    font-weight: bolder;
+    font-size: 110px;
+}
+.container h3
+{
+    color:#4528B6;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.container .buttons button
+{
+    padding: 10px 10px 10px 10px;
+}
+.container .buttons button:nth-child(1)
+{
+    color: white;
+    background-color: #4528B6;
+    border:2px solid #4528B6;
+}
+.container .buttons button:nth-child(2)
+{
+    background-color: transparent;
+    border:2px solid black;
+}
+/*end of banner*/
+
+/*start of flower*/
+.flower
+{
+    background-image: url("../img/FlowerBackground.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/*start cards*/
+.cards .card 
+{
+    box-shadow: 2px 2px 2px 2px #685488;
+    color: #4528B6;
+    margin: 5px 10px 5px 10px;
+    width: 250px;
+    border-radius: 8px;
+}
+.cards .card img
+{
+    border: 0 !important;
+    background-color: transparent;
+}
+.stories
+{
+    background-image:
+    url("../img/FlowerBackgroupTop.png"),
+    url("../img/FlowerBackground2.png"), 
+    url("../img/FlowerBackgroundbottom.png");
+    background-position: 0px -76px,center,0px 0px;
+    background-size: contain,cover,contain;
+    min-height: 500px;
+    background-repeat: no-repeat, no-repeat,no-repeat;
+}
+.stories .title
+{
+    color:white;
+}
+.stories .product .card
+{
+    width: 21rem;
+    margin: 0px 10px 10px 10px;
+    border-radius: 8px;
+    
+}
+.stories .product .card .card-body .card-title
+{
+    color: #4528B6;
+}
+.stories .product .card .card-body .btn
+{
+    color:white;
+    background-color: #4528B6;
+}
+.about
+{
+    background: rgb(253,226,255);
+    background: linear-gradient(90deg, rgba(253,226,255,1) 0%, rgba(246,223,252,1) 50%, rgba(220,247,253,1) 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about .about-title h5
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.about .row
+{
+    margin: 0px 10px 0px 10px;
+}
+.about .row .card
+{
+    border-radius: 50px;
+    padding: 15px 10px 15px 10px;
+}
+
+.about .row .card .about-image img
+{
+ max-height: 650px;
+}
+.about .row .card .card-body .card-title
+{
+    font-size: 40px;
+    color: #4528B6;
+}
+.about .row .card .card-body .card-text
+{
+ font-size: 24px;
+ color: #4528B6;
+ text-align: left;
+}
+.about-button
+{
+    border-radius: 24px;
+    font-size: 28px;
+    color: white;
+    background-color: #4528B6;
+    border: 0 !important;
+    padding: 10px 15px 10px 15px;
+}
+.process
+{
+    padding: 0px;
+    min-height: 500px;
+    background: rgb(69,40,182);
+    background: linear-gradient(84deg, rgba(69,40,182,1) 0%, rgba(69,40,182,1) 64%, rgba(30,18,80,1) 100%); 
+}
+.process .process-image
+{
+    background-image: url("../img/process-top.png");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.process .process-head h1
+{
+   
+    color: white;
+    font-weight: bolder;
+}
+.process .process-head p
+{
+    font-size: 32;
+    color: white;
+}
+.process-card
+{
+    margin: 10px 20px 10px 20px;
+}
+.process-card .row .card
+{
+    background-color: #29147B;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    border-radius: 24px;
+ 
+}
+.process-card .row .card .card-title
+{
+    font-size: 31px;
+}
+.process-card .row .card .card-body
+{
+    font-size: 20px;
+    text-align:center;
+}
+.process-card .row .card img
+{
+   margin-top: 20px;
+}
+/*end of process*/
+.question .row .card
+{
+    color: #29147B;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.question .row .card .card-title
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.question .row .card .card-body
+{
+    font-size: 26px;
+}
+@media (max-width:1200px)
+{
+    .navbar-nav .nav-item .nav-link
+    {
+        font-size: 20px;
+    }
+    .container h3{
+        font-size: 47px;
+    }
+    .container h1{
+        font-size: 75px;
+    }
+
+    .stories
+{
+    background-position: 0px -71px,center,0px 10px;
+}
+}
+@media (max-width:1050px)
+{
+    .navbar-nav .nav-item .nav-link
+    {
+        font-size: 18px;
+    }
+    .stories
+    {
+        background-position: 0px -62px,center,0px 10px;
+    }
+}
+@media (max-width:992px)
+{
+    .navbar-nav .nav-item .nav-link
+    {
+        font-size: 18px;
+    }
+    .container h3{
+        font-size: 43px;
+    }
+    .container h1{
+        font-size: 68px
+    }
+    .stories
+    {
+        background-position: 0px -58px,center,0px 10px;
+    }
+}
+@media (max-width: 768px) { /* Medium devices (tablets, 768px and up) */
+    .container h1{
+        font-size: 70px;
+    }
+    .container h3{
+        font-size: 35px;
+    }
+    .container h1{
+        font-size: 55px;
+    }
+    .stories
+    {
+        background-position: 0px -45px,center,0px 10px;
+    }
+}
+@media (max-width: 576px) { /* Small devices (tablets, 576px and up) */
+    .container {
+       
+    }
+    .container h3{
+        font-size: 27px;
+    }
+    .container h1{
+        font-size: 43px;
+    }
+    .stories
+    {
+        background-position: 0px -34px,center,0px 10px;
+    }
+}
