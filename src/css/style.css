@@ -99,7 +99,11 @@
     margin: 0px 10px 10px 10px;
     border-radius: 8px;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
-    
+    transition: 2s ease-out;
+}
+.stories .product .card:hover
+{
+    width: 23rem;
 }
 .stories .product .card .card-body .card-title
 {
@@ -139,7 +143,7 @@
 
 .about .row .card .about-image img
 {
- max-height: 650px;
+/* max-height: 650px;*/
 }
 .about .row .card .card-body .card-title
 {
